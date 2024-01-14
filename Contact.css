@@ -1,0 +1,286 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #eceaeadc;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 130px;
+}
+
+.header{
+  background-color: #48bf53;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 5px 10px;
+}
+
+.topHeader{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.left{
+  width: 20%;
+}
+
+.left p{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.middle{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 10px;
+  padding: 10px;
+}
+
+.middle input{
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.middle button{
+  height: 30px;
+  width: 70px;
+  border: none;
+  background-color: #167e79;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.right{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.right a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.bottomHeader{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bottomHeader a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Header{
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 200px;
+  background-image: url('HTML-IMAGES/bg4.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 10px;
+}
+
+.imageHeader{
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.imageHeader h1{
+  color: #ffffff;
+  display: flex;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 30px;
+}
+
+.contactContainer{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+.topContainer{
+  width: 90%;
+  padding: 10px;
+  padding: 20px;
+}
+
+.bottomContainer{
+  width: 90%;
+  padding: 10px;
+}
+
+.contactForm{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.input input{
+  height: 30px;
+  padding-left: 40px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+input::placeholder{
+  color: slategray;
+}
+
+.fa-user{
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  color: slategray;
+}
+
+.email{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.email input{
+  height: 30px;
+  padding-left: 40px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fa-envelope{
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  color: slategray;
+}
+
+.phone{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.phone input{
+  height: 30px;
+  padding-left: 40px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fa-phone{
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  color: slategray;
+}
+
+.message{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+textarea{
+  height: 80px;
+  padding-top: 8px;
+  padding-left: 40px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea::placeholder{
+  color: slategray;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fa-pen{
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  color: slategray;
+}
+
+.sendButton button{
+  height: 40px;
+  width: 100px;
+  color: #ffffff;
+  background-color: #48bf53;
+  border: none;
+  border-radius: 5px;
+}
+
+.sendButton button:hover{
+  background-color: #89cb8f;
+  cursor: pointer;
+}
+
+
+footer{
+  background-color: #48bf53;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.topFooter{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.topFooter p{
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.bottomFooter{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.bottomFooter p{
+  color: #ffffff;
+}
+
+.bottomFooter{
+  color: #ffffff;
+}
